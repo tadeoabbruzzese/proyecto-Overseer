@@ -1435,7 +1435,6 @@ a:hover, a:active {
   display: block;
 }
 
-/*CAMBIO A VALORES PREDETERMINADOS COMO APARECIA EN EL TEMPLATE ORIGINAL
 .social-side {
   position: fixed;
   left: 25px;
@@ -1446,21 +1445,7 @@ a:hover, a:active {
   color: #fff;
   --heading-color: #fff;
   --border-color: #fff;
-  
-  //El left es de 15px (no 25px) y se pone en el @media (opcional)
-}*/
-
-.social-side {
-  position: fixed;
-  left: 15px;
-  bottom: 50px;
-  z-index: 10;
-  display: flex;
-  mix-blend-mode: exclusion;
-  --heading-color: #fff;
-  color: var(--heading-color);
 }
-
 @media only screen and (max-width: 991px) {
   .social-side {
     display: none;
@@ -2659,10 +2644,6 @@ a:hover, a:active {
   padding-left: 20px;
   padding-bottom: 15px;
 }
-
-.post-title-info{
-  text-transform: uppercase;
-}
 .dsn-style-cards .dsn-posts.box-image-blackdsn .box-content .post-title-info {
   display: flex;
   flex-direction: column;
@@ -2741,8 +2722,6 @@ a:hover, a:active {
     padding: 0;
   }
 }
-
-
 .dsn-style-cards .dsn-posts.box-content-hover .dsn-item-post .box-content {
   padding: var(--margin-padding) 30px;
 }
@@ -2769,8 +2748,6 @@ a:hover, a:active {
   overflow: hidden;
   max-height: 80vh;
 }
-
-/*Aqui las cajas se rompen por que se le esta aplicando margin-top*/
 .dsn-style-classic.dsn-under-img .dsn-posts .post-content {
   padding: 0 30px 30px 30px;
   margin-top: -45px;
@@ -2901,10 +2878,9 @@ a:hover, a:active {
 }
 .dsn-style-metro.dsn-metro-1 .dsn-posts .dsn-item-post:nth-of-type(4n + 1) .box-image-bg, .dsn-style-metro.dsn-metro-1 .dsn-posts .dsn-item-post:nth-of-type(4n + 4) .box-image-bg {
   height: 550px;
-
 }
 .dsn-style-metro.dsn-metro-1 .dsn-posts .dsn-item-post:nth-of-type(4n + 3) .box-image-bg, .dsn-style-metro.dsn-metro-1 .dsn-posts .dsn-item-post:nth-of-type(4n + 2) .box-image-bg {
-  height: 550px;
+  height: 350px;
 }
 .dsn-style-metro.dsn-metro-2 .dsn-posts .dsn-item-post {
   display: flex;
@@ -6579,4 +6555,3 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
