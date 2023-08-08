@@ -6543,8 +6543,18 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
 
 .cap {
   position: absolute;
-  bottom: 30px;
-  left: 0;
+  top: 300px;
+  left: 420px;
+  background-image: linear-gradient(to right, #0e0e0e5c 0%, #1b1515 100%);
+  padding: 4px 15px;
+  color: #fff;
+  z-index: 10;
+}
+
+.cap2 {
+  position: absolute;
+  top: 300px;
+  right: 70px;
   background-image: linear-gradient(to right, #0e0e0e5c 0%, #1b1515 100%);
   padding: 4px 15px;
   color: #fff;
