@@ -2494,3 +2494,15 @@
     height: 20%;
     background-image: linear-gradient(to top, var(--assistant-color), rgba(0, 0, 0, 0));
   }
+
+.spansito{
+  font-size: 80px;
+}
+
+/* .overseer{
+  width: 120px;
+} */
+
+.titulo-h4{
+  font-size: 40px;
+}
