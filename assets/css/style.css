@@ -1445,7 +1445,9 @@ a:hover, a:active {
   color: #fff;
   --heading-color: #fff;
   --border-color: #fff;
+  opacity: .8;
 }
+
 @media only screen and (max-width: 991px) {
   .social-side {
     display: none;
